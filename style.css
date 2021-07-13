@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* body */
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:white;
+    color:rgb(255, 255, 255);
+   
+}
+/* poster in header*/
+.poster{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 878px;
+    background-color: blue;
+    transition: all .7s ease-in ;
+}
+.poster:hover{
+    color: rgb(223, 134, 18);
+    text-shadow: 2px 2px 5px rgb(14, 4, 4);
+
+}
+.heading{
+    width: 445px;
+    height: 230px;
+  
+}
+
+.heading h1{
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 64px;
+ 
+}
+
+.button{
+    background-color: #E02C6D;
+    margin-top: 27px;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+.image{
+    width:556px ;
+    height:438px ;
+
+}
+.image img{
+    width:542px ;
+    height:463px ;
+}
+/*  main section*/
+.position{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    
+ 
+
+}
+.player img{
+    height: 256px;
+    width: 300px;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 474px;
+    width: 330px;
+    padding: 15px;
+    margin-bottom: 27px;
+    margin-right: 30px;
+    background-color:#FFFFFF;
+    box-shadow: 3px 5px 8px rgb(105, 92, 92);
+    border-radius: 15px;
+
+}
+.article .discription h1{
+    transition:  0.5s ease ;
+}
+.discription{
+    color: black;
+    padding: 5px;
+    margin-left: 10px;
+}
+.discription h1{
+    font-size: 28px;
+    
+}
+
+.discription p{
+    text-align: justify;
+    opacity: .8;
+}

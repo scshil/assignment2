@@ -12,9 +12,10 @@ body{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    height: 878px;
+    width: 100%;
+    height: 100vh;
     background-color: blue;
-    transition: all .7s ease-in ;
+    transition: all .7s ease-in;
 }
 .poster:hover{
     color: rgb(223, 134, 18);
@@ -30,15 +31,16 @@ body{
 .heading h1{
     margin: 0;
     font-family: 'Lobster', cursive;
-    font-size: 64px;
+    font-size: 80px;
  
 }
 
 .button{
     background-color: #E02C6D;
     margin-top: 27px;
+    font-size: 25px;
     font-weight: 700;
-    padding: 8px;
+    padding: 15px;
     border-radius: 5px;
     color: white;
 }
@@ -61,10 +63,6 @@ body{
 .player{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-
-    
- 
-
 }
 .player img{
     height: 256px;
@@ -82,7 +80,6 @@ body{
     background-color:#FFFFFF;
     box-shadow: 3px 5px 8px rgb(105, 92, 92);
     border-radius: 15px;
-
 }
 .article .discription h1{
     transition:  0.5s ease ;
@@ -94,10 +91,32 @@ body{
 }
 .discription h1{
     font-size: 28px;
-    
 }
-
 .discription p{
     text-align: justify;
     opacity: .8;
 }
+/* footer */
+
+.footer-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+}
+.logo img{
+    width: 100%;
+    height: 50%;
+    padding-right: 5px;
+}
+
+.icons i{
+    padding-right: 15px;
+    font-size: 1.5em;
+}
+.copyright{
+    font-size: 1.3em;
+    opacity: .5;
+}
+

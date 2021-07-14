@@ -97,6 +97,60 @@ body{
     text-align: justify;
     opacity: .8;
 }
+/* bonous part */
+#partner{
+    color: rgb(223, 134, 18);
+   text-align: center;
+   font-family: 'Lobster', cursive ;
+   font: 500;
+   font-size: 50px;
+   text-shadow: 2px 3px 8px black;
+}
+.sponcers{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 0px;
+
+}
+
+.sponcers:hover{
+    box-shadow: 5px 15px 10px gray;
+
+}
+
+.sponcers img{
+    height: 463px;
+    width: 542px;
+}
+.brand{
+    width: 600px;
+    height: 500px;
+    background-color: black;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+}
+.brand img{
+    height: 100px ;
+    width: 100px;
+    border-radius: 30px;
+    transition: all  ease-in-out;
+  
+
+}
+.brand img:hover{
+    box-shadow: 3px 5px 10px gray;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+
+}
+
+
 /* footer */
 
 .footer-part{
@@ -105,6 +159,7 @@ body{
     align-items: center;
     color: black;
     flex-direction: column;
+    margin-top: 100px;
 }
 .logo img{
     width: 100%;
